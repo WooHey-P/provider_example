@@ -5,8 +5,8 @@ import 'package:provider_example/layout/default_layout.dart';
 import '../riverpod/auto_dispose_modifier_provider.dart';
 
 // Auto Dispose Modifier Provider 는 자동으로 캐시를 삭제함
-class AutoDisposeProviderScreen extends ConsumerWidget {
-  const AutoDisposeProviderScreen({super.key});
+class AutoDisposeModifierProviderScreen extends ConsumerWidget {
+  const AutoDisposeModifierProviderScreen({super.key});
 
   @override
   Widget build(BuildContext context, WidgetRef ref) {
