@@ -15,7 +15,6 @@ class _ListenProviderScreenState extends ConsumerState<ListenProviderScreen> wit
 
   @override
   void initState() {
-    // TODO: implement initState
     super.initState();
 
     controller = TabController(
